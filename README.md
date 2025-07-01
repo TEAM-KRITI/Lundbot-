@@ -15,33 +15,33 @@
 
 <hr>
 
-## 🍁 About This Bot :
+## 🍁 ᴧʙoᴜᴛ ᴛʜɪs ʙᴏᴛ :
 
 ![streamingfilestreambot-professional-live_1](https://user-images.githubusercontent.com/88939380/137127129-a86fc939-2931-4c66-b6f6-b57711a9eab7.png)
 
 </p>
 <p align='center'>
-    This repo will use to deploy for music playing bot of telegram
+    ᴛʜɪs ʀᴇᴘᴏ ᴡɪʟʟ ᴜsᴇ ᴛᴏ ᴅᴇᴘʟᴏʏ ғᴏʀ ʏᴏᴜʀ ᴘʟᴧʏɪɴɢ ʙᴏᴛ ᴏғ ᴛᴇʟᴇɢʀᴧᴍ
 </p>
 
 
-## ♢ How to make your own :
+## ♢ ʜᴏᴡ ᴛᴏ ᴍᴧᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ʙᴏᴛ :
 
 
-#### ♢ Click on This Drop-down and get more details
+#### ♢ ᴄʟɪᴄᴋ ᴏɴ ᴛʜɪs ᴅʀᴏᴘ-ᴅᴏᴡɴ ᴧɴᴅ ɢᴇᴛ ᴍᴏʀᴇ ᴅᴇᴛᴧɪʟs
 <br>
 <details>
-  <summary><b>Deploy on Heroku:</b></summary>
+  <summary><b>ᴅᴇᴘʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ:</b></summary>
 
 
-1. Fork This Repo
-2. Click on the button to Deploy and follow steps
+1. ғᴏʀᴋ ᴛʜɪs ʀᴇᴘᴏ
+2. ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴅᴇᴘʟᴏʏ ᴧɴᴅ ғᴏʟʟᴏᴡ sᴛᴇᴘs
 
-<h4> So Follow Above Steps 👆 and then deploy other wise bot won't work</h4>
+<h4> sᴏ ғᴏʟʟᴏᴇ ᴧʙᴏᴠᴇ sᴛᴇᴘs👆ᴧɴᴅ  ᴛʜᴇɴ ᴅᴇᴘʟᴏʏ ᴏᴛʜᴇʀ ᴡɪsᴇ ʙᴏᴛ ᴅᴏɴ'ᴛ ᴡᴏʀᴋ</h4>
 
-Press the below button to Fast deploy on Heroku/Raiwlay
-Either you could locally host or deploy on [Heroku](https://heroku.com)
-### 💜 Heroku
+ᴘʀᴇss ᴛʜᴇ ʙᴇʟʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴛᴏ ғᴧsᴛ ᴅᴇᴘʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ/ʀᴧɪʟᴡᴀʏ
+ᴇɪᴛʜᴇʀ ʏᴏᴜ ᴄᴏᴜʟᴅ ʟᴏᴄᴧʟʟʏ ʜᴏsᴛ ᴏʀ ᴅᴇᴘʟᴏʏ ᴏɴ [ʜᴇʀᴏᴋᴜ](https://heroku.com)
+### 💜 ʜᴇʀᴏᴋᴜ
 
 <p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/itsAarumi/AarumiMusic"> <img src="https://www.herokucdn.com/deploy/button.svg"></a></p>
 
@@ -51,11 +51,11 @@ Either you could locally host or deploy on [Heroku](https://heroku.com)
 then goto the <a href="#mandatory-vars">variables tab</a> for more info on setting up environmental variables. </details>
 
 <details>
-  <summary><b>Features:</b></summary>
+  <summary><b>ғᴇᴧᴛᴜʀᴇs:</b></summary>
   
 <p>
 
-🚀Features<p>
+🚀ғᴇᴧᴛᴜʀᴇs<p>
 💥Superfast⚡️ download and stream links.<br>
 💥No ads in playing songs.<br>
 💥Superfast interface.<br>
@@ -69,7 +69,7 @@ then goto the <a href="#mandatory-vars">variables tab</a> for more info on setti
 💥A lot more tired of writing check out by deploying it. 
 </details>
 <details>
-  <summary><b>Host it on VPS Locally :</b></summary>
+  <summary><b>ʜᴏsᴛ ɪᴛ ᴏɴ ᴠᴘs ʟᴏᴄᴧʟʟʏ :</b></summary>
 
 
 ```py
@@ -109,7 +109,7 @@ STRING_SESSION=
   </details>
 
 <details>
-  <summary><b>Vars and Details :</b></summary>
+  <summary><b>ᴠᴧʀs ᴧɴᴅ ᴅᴇᴛᴧɪʟs :</b></summary>
 
 `API_ID` : Goto [my.telegram.org](https://my.telegram.org) to obtain this.
 
