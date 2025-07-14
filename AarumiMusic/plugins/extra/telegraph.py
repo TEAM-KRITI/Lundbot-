@@ -18,7 +18,7 @@ def upload_file(file_path):
 async def get_link_group(client, message):
     if not message.reply_to_message:
         return await message.reply_text(
-            "⚠️ Please reply to a media file to upload."
+            "⚠️ ᴘʟᴇᴧsᴇ ʀᴇᴘʟʏ ᴛᴏ ᴧ ᴍᴇᴅɪᴧ ғɪʟᴇ ᴛᴏ ᴜᴘʟᴏᴧᴅ."
         )
 
     media = message.reply_to_message
@@ -32,16 +32,16 @@ async def get_link_group(client, message):
         file_size = media.document.file_size
 
     if file_size == 0:
-        return await message.reply_text("⚠️ This message doesn't contain any downloadable media.")
+        return await message.reply_text("⚠️ ᴛʜɪs ᴍᴧssᴧɢᴇ ᴅᴏsᴇɴ'ᴛ ᴄᴏɴᴛᴧɪɴ ᴧɴʏ ᴅᴏᴡɴʟᴏᴧᴅᴧʙʟᴇ ᴍᴇᴅɪᴧ.")
 
     if file_size > 200 * 1024 * 1024:
-        return await message.reply_text("⚠️ Please provide a media file under 200MB.")
+        return await message.reply_text("⚠️ ᴘʟᴇᴧsᴇ ᴘʀᴏᴠɪᴅᴇ ᴧ ᴍᴇᴅɪᴀ ғɪʟᴇ ᴜɴᴅᴇʀ 200ᴍʙ.")
 
-    text = await message.reply("🔄 Processing your file...")
+    text = await message.reply("🔄 ᴘʀᴏᴄᴇssɪɴɢ ʏᴏᴜʀ ғɪʟᴇ...")
 
     async def progress(current, total):
         try:
-            await text.edit_text(f"Downloading... {current * 100 / total:.1f}%")
+            await text.edit_text(f"ᴅᴏᴡɴʟᴏᴧᴅɪɴɢ... {current * 100 / total:.1f}%")
         except Exception:
             pass
 
@@ -49,22 +49,22 @@ async def get_link_group(client, message):
         local_path = await media.download(progress=progress)
 
         if not os.path.exists(local_path):
-            return await text.edit_text("❌ Failed to download the media.")
+            return await text.edit_text("❌ ғᴧɪʟᴇᴅ ᴛᴏ ᴅᴏᴡɴʟᴏᴧᴅ ᴛʜᴇ ᴍᴇᴅɪᴧ.")
 
-        await text.edit_text("Uploaded to Catbox...")
+        await text.edit_text("ᴜᴘʟᴏᴧᴅᴇᴅ ᴛᴏ ᴄᴧᴛʙᴏx...")
 
         success, result = upload_file(local_path)
 
         if success:
             await message.reply_photo(
                 local_path,
-                caption=f"✨ {message.from_user.mention(style='md')}, this is your uploaded media!",
+                caption=f"✨ {message.from_user.mention(style='md')}, ᴛʜɪs ɪs ʏᴏᴜʀ ᴜᴘʟᴏᴧᴅᴇᴅ ᴍᴇᴅɪᴧ!",
                 reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton("Your Link", url=result)]]
+                    [[InlineKeyboardButton("ʏᴏᴜʀ ʟɪɴᴋ", url=result)]]
                 ),
             )
         else:
-            await text.edit_text(f"❌ Upload Failed!\nError: {result}")
+            await text.edit_text(f"❌ ᴜᴘʟᴏᴀᴅ ғᴧɪʟᴇᴅ!\nError: {result}")
 
     except Exception as e:
         await text.edit_text(f"❌ An error occurred:\n{e}")
