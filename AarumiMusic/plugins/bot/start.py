@@ -79,7 +79,7 @@ async def start_pm(client, message: Message, _):
         name = message.text.split(None, 1)[1]
         if name[0:4] == "help":
             keyboard = first_page(_)
-            await message.reply_video(
+            await message.reply_photo(
                 random.choice(AARUMI_PIC),
                 caption=_["help_1"].format(config.SUPPORT_CHAT),
                 reply_markup=keyboard,
@@ -133,7 +133,7 @@ async def start_pm(client, message: Message, _):
         served_chats = len(await get_served_chats())
         served_users = len(await get_served_users())
         UP, CPU, RAM, DISK = await bot_sys_stats()
-        await message.reply_video(
+        await message.reply_photo(
             random.choice(AARUMI_PIC),
             caption=_["start_2"].format(message.from_user.mention, app.mention, UP, DISK, CPU, RAM, served_users, served_chats),
             reply_markup=InlineKeyboardMarkup(out),
