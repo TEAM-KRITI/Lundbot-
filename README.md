@@ -167,6 +167,6 @@ Bot also Supported with Channels. Just add bot and assistant to the Channel as A
 
 ### Credits : 
 
-- [Me](https://github.com/itsAarumi)
-- [Telegram](https://t.me/Swagger_Soul)
+- [ᴧᴧʀᴜᴍɪ](https://github.com/itsAarumi)
+- [ᴛᴇʟᴇɢʀᴧϻ](https://t.me/Swagger_Soul)
 - Everyone In This Journey !
