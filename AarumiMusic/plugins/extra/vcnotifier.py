@@ -9,12 +9,12 @@ logging.basicConfig(level=logging.INFO)
 async def video_chat_started(client, message: Message):
     chat = message.chat
     await message.reply(
-        f"🎥 ᴠɪᴅᴇᴏ ᴄʜᴧᴛ ʜᴧs sᴛᴧʀᴛᴇᴅ ɪɴ {chat.title}!\n\nᴊᴏɪɴ ᴜs ɴᴏᴡ ғᴏʀ ᴧ ғᴜɴ ᴛɪᴍᴇ ᴛᴏɢᴇᴛʜᴇʀ..! 😉"
+        f"🎥 Vᴏɪᴄᴇ Cʜᴧᴛ ʜᴧs Sᴛᴧʀᴛᴇᴅ ɪɴ {chat.title}!\n\nᴊᴏɪɴ ᴜs ɴᴏᴡ ғᴏʀ ᴧ ғᴜɴ ᴛɪᴍᴇ ᴛᴏɢᴇᴛʜᴇʀ..! 😉"
     )
 
 @app.on_message(filters.video_chat_ended)
 async def video_chat_ended(client, message: Message):
     chat = message.chat
     await message.reply(
-        f"🚫 ᴠɪᴅᴇᴏ ᴄʜᴧᴛ ʜᴀs ᴇɴᴅᴇᴅ ɪɴ {chat.title}.\n\nᴛʜᴧɴᴋ ʏᴏᴜ ғᴏʀ ᴊᴏɪɴɪɴɢ..! sᴇᴇ ʏᴏᴜ ɴᴇxᴛ ᴛɪᴍᴇ..! 👋"
+        f"🚫 Vᴏɪᴄᴇ Cʜᴧᴛ ʜᴧs Eɴᴅᴇᴅ ɪɴ {chat.title}.\n\nᴛʜᴧɴᴋ ʏᴏᴜ ғᴏʀ ᴊᴏɪɴɪɴɢ..! sᴇᴇ ʏᴏᴜ ɴᴇxᴛ ᴛɪᴍᴇ..! 👋"
     )
