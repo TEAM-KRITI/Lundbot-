@@ -1,6 +1,6 @@
 
 
-<h2 align="center">
+</h2 align="center">
   
      ──「 ᴧᴧʀᴜᴍɪ ꭙ ᴍᴜꜱɪᴄ 」──
 </h2>
