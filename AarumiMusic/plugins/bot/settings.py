@@ -117,16 +117,16 @@ async def settings_back_markup(client, CallbackQuery: CallbackQuery, _):
 @app.on_callback_query(filters.regex("gib_source"))
 async def gib_repo_callback(_, callback_query):
     await callback_query.edit_message_media(
-        media=InputMediaVideo(
-            "https://telegra.ph/file/b1367262cdfbcd0b2af07.mp4", 
+        media=InputMediaPhoto(
+            "https://files.catbox.moe/h4higm.jpg", 
             has_spoiler=True, 
-            caption="ʟᴜɴᴅ ʟᴇʟᴇ ᴍᴇʀᴀ ʀᴇᴘᴏ ᴋʏᴀ ᴋᴀʀᴇɢᴀ, ʟᴇɢᴀ ᴋʏᴀ ʙʜᴏsᴀᴅɪᴋᴇ"
+            caption="ᴄʜᴧʟᴀ ᴊᴧ ʙʜᴏsᴅɪᴋᴇ"
         ),
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(text="• ʙᴀᴄᴋ •", callback_data="settingsback_helper"),
-                    InlineKeyboardButton(text="• ᴄʟᴏsᴇ •", callback_data="close")
+                    InlineKeyboardButton(text="⌯ ʙᴧᴄᴋ ⌯", callback_data="settingsback_helper"),
+                    InlineKeyboardButton(text="⌯ ᴄʟᴏsᴇ ⌯", callback_data="close")
                 ]
             ]
         ),
@@ -155,24 +155,25 @@ async def show_bot_info(c: app, q: CallbackQuery):
 @languageCB
 async def support(client, CallbackQuery, _):
     await CallbackQuery.edit_message_text(
-        text="ʜᴇʀᴇ ᴧʀᴇ ꜱᴏᴍᴇ ɪᴍᴘᴏʀᴛᴀɴᴛ ʟɪɴᴋꜱ.",
+        text="💌 ʜᴇʀᴇ ᴧʀᴇ ꜱᴏᴍᴇ ɪᴍᴘᴏʀᴛᴧɴᴛ ʟɪɴᴋꜱ.
+ᴊᴏɪɴ ᴘʟᴇᴧsᴇ...💞",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        text="sᴜᴘᴘᴏʀᴛ", url=config.SUPPORT_CHAT
+                        text="⌯ sᴜᴘᴘᴏʀᴛ ⌯", url=config.SUPPORT_CHAT
                     ),
                     InlineKeyboardButton(
-                        text="ᴄʜᴀɴɴᴇʟ", url=config.SUPPORT_CHANNEL
+                        text="⌯ ᴄʜᴧɴɴᴇʟ ⌯", url=config.SUPPORT_CHANNEL
                     ),
 
                 ],
                 [
                     InlineKeyboardButton(
-                        text="ᴅᴇᴠs", user_id=config.OWNER_ID
+                        text="⌯ ᴏᴡɴᴇʀ ⌯", user_id=config.OWNER_ID
                     ),           
                     InlineKeyboardButton(
-                        text="ʙᴀᴄᴋ", callback_data=f"settingsback_helper"
+                        text="⌯ ʙᴧᴄᴋ ⌯", callback_data=f"settingsback_helper"
                     )
                 ],
             ]
