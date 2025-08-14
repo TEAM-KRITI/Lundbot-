@@ -156,7 +156,7 @@ async def show_bot_info(c: app, q: CallbackQuery):
 @languageCB
 async def support(client, CallbackQuery, _):
     await CallbackQuery.edit_message_text(
-     text="💌 ʜᴇʀᴇ ᴧʀᴇ ꜱᴏᴍᴇ ɪᴍᴘᴏʀᴛᴧɴᴛ ʟɪɴᴋꜱ.ᴊᴏɪɴ ᴘʟᴇᴧsᴇ...💞"""
+     text="💌 ʜᴇʀᴇ ᴧʀᴇ ꜱᴏᴍᴇ ɪᴍᴘᴏʀᴛᴧɴᴛ ʟɪɴᴋꜱ.ᴊᴏɪɴ ᴘʟᴇᴧsᴇ...💞"
     
         reply_markup=InlineKeyboardMarkup(
             [
