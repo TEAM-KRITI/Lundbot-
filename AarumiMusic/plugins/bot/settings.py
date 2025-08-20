@@ -120,7 +120,8 @@ async def gib_repo_callback(_, callback_query):
         media=InputMediaPhoto(
             "https://files.catbox.moe/h4higm.jpg", 
             has_spoiler=True, 
-            caption="ᴄʜᴧʟᴀ ᴊᴧ ʙʜᴏsᴅɪᴋᴇ"
+            caption="ʟᴜɴᴅ ʟᴇʟᴇ ᴍᴇʀᴀ 😒 ʀᴇᴘᴏ ᴋʏᴀ ᴋᴀʀᴇɢᴀ.
+  ʟᴇɢᴀ ᴋʏᴀ ʙʜᴏsᴀᴅɪᴋᴇ 😆 ʙᴏʟ ɴᴀ ʟᴇɢᴀ ??"
         ),
         reply_markup=InlineKeyboardMarkup(
             [
