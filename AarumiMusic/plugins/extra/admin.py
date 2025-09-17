@@ -32,7 +32,7 @@ kickpic = [
 button = [
     [
         InlineKeyboardButton(
-            text="Ɗᴇᴠ𝘴", url="https://t.me/AarumiBots"
+            text="𝐎ᴡɴᴇʀ", url="https://t.me/kriti_bot_update"
         )
     ]
 ]
