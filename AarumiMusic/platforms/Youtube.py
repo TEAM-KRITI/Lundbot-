@@ -16,8 +16,10 @@ import random
 import logging
 import aiohttp
 import config
-from config import API_URL, VIDEO_API_URL, API_KEY
 
+API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') #youtube song url
+VIDEO_API_URL = getenv("VIDEO_API_URL", 'https://api.video.thequickearn.xyz')
+API_KEY = getenv("API_KEY", "30DxNexGenBots39e64f")
 
 def cookie_txt_file():
     cookie_dir = f"{os.getcwd()}/cookies"
