@@ -118,7 +118,7 @@ async def settings_back_markup(client, CallbackQuery: CallbackQuery, _):
 async def gib_repo_callback(_, callback_query):
     await callback_query.edit_message_media(
         media=InputMediaPhoto(
-            "https://files.catbox.moe/h4higm.jpg", 
+            "https://files.catbox.moe/s7o9rf.jpg", 
             has_spoiler=True, 
             caption="ᴄʜᴧʟᴀ ᴊᴧ ʙʜᴏsᴅɪᴋᴇ"
         ),
@@ -161,16 +161,16 @@ async def support(client, CallbackQuery, _):
             [
                 [
                     InlineKeyboardButton(
-                        text="⌯ sᴜᴘᴘᴏʀᴛ ⌯", url=config.SUPPORT_CHAT
+                        text="˹ sυᴘᴘσʀᴛ ˼", url=config.SUPPORT_CHAT
                     ),
                     InlineKeyboardButton(
-                        text="⌯ ᴄʜᴧɴɴᴇʟ ⌯", url=config.SUPPORT_CHANNEL
+                        text="⌯ υᴘᴅᴧᴛєs ⌯", url=config.SUPPORT_CHANNEL
                     ),
 
                 ],
                 [
                     InlineKeyboardButton(
-                        text="⌯ ᴏᴡɴᴇʀ ⌯", user_id=config.OWNER_ID
+                        text="⌯ ᴅєᴠєʟσᴘєʀ ⌯", user_id=config.OWNER_ID
                     ),           
                     InlineKeyboardButton(
                         text="⌯ ʙᴧᴄᴋ ⌯", callback_data=f"settingsback_helper"
