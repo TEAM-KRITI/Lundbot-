@@ -26,9 +26,9 @@ API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') #youtube song url
 VIDEO_API_URL = getenv("VIDEO_API_URL", 'https://api.video.thequickearn.xyz')
 API_KEY = getenv("API_KEY", "30DxNexGenBots39e64f")
 
-OWNER_ID = int(getenv("OWNER_ID", "7905552682"))
+OWNER_ID = int(getenv("OWNER_ID", "8486348579"))
 
-BOT_USERNAME = getenv("BOT_USERNAME" , "AarumiXMusic_bot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "Candyy_music_robot")
 
 COMMAND_HANDLER = getenv("COMMAND_HANDLER", "! / .").split()
 
@@ -45,7 +45,7 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", ""
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/lll_BADNAM_BABY_lll")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/kriti_bot_update")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+G-kGeNJKv_YxNTg9")
 
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
