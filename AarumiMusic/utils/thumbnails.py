@@ -176,10 +176,10 @@ async def get_thumb(videoid: str) -> str:
         wm_font = ImageFont.truetype("AarumiMusic/assets/font2.ttf", 24)
 
         # IG watermark (top-left)
-        draw.text((30, 20), "IG: BADNAM BOTS", fill="yellow", font=wm_font)
+        draw.text((30, 20), "IG: @kriti_bot_update", fill="yellow", font=wm_font)
 
         # DEV watermark (top-right)
-        dev_text = "DEV: KRITI BOTS"
+        dev_text = "DEV: @III_BADNAM_BABY_lll"
         text_w = wm_font.getlength(dev_text)
         draw.text((1280 - text_w - 30, 20), dev_text, fill="yellow", font=wm_font)
 
