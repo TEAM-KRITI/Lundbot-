@@ -161,7 +161,7 @@ async def support(client, CallbackQuery, _):
             [
                 [
                     InlineKeyboardButton(
-                        text="˹ sυᴘᴘσʀᴛ ˼", url=config.SUPPORT_CHAT
+                        text="⌯ sυᴘᴘσʀᴛ ⌯", url=config.SUPPORT_CHAT
                     ),
                     InlineKeyboardButton(
                         text="⌯ υᴘᴅᴧᴛєs ⌯", url=config.SUPPORT_CHANNEL
@@ -170,7 +170,7 @@ async def support(client, CallbackQuery, _):
                 ],
                 [
                     InlineKeyboardButton(
-                        text="⌯ ᴅєᴠєʟσᴘєʀ ⌯", user_id=config.OWNER_ID
+                        text="⌯ ᴏᴡɴᴇʀ ⌯", user_id=config.OWNER_ID
                     ),           
                     InlineKeyboardButton(
                         text="⌯ ʙᴧᴄᴋ ⌯", callback_data=f"settingsback_helper"
